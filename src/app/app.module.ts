@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common';
+import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { RegistrationFormComponent } from './registration-form/registration-form.component';
+import { Regform2Component } from './regform2/regform2.component';
 
 import { HttpHeaders, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
-    RegistrationFormComponent
+    Regform2Component
   ],
   imports: [
     BrowserModule,
@@ -18,8 +18,10 @@ import { HttpHeaders, HttpClientModule } from '@angular/common/http';
     CommonModule,
     FormsModule
   ],
-  providers: [],
-  bootstrap: [RegistrationFormComponent]
+  providers: [
+
+  ],
+  bootstrap: [Regform2Component]
 })
 
 export class AppModule { }

@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { Regform2Component } from './regform2/regform2.component';
+import { HousePostListComponent } from './house-post-list/house-post-list.component';
 
 import { HttpHeaders, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
-    Regform2Component
+    HousePostListComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +21,7 @@ import { HttpHeaders, HttpClientModule } from '@angular/common/http';
   providers: [
 
   ],
-  bootstrap: [Regform2Component]
+  bootstrap: [HousePostListComponent]
 })
 
 export class AppModule { }

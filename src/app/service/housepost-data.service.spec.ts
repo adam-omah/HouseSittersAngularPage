@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { Loc8rDataService } from './loc8r-data.service';
+import { HousepostDataService } from './housepost-data.service';
 
-describe('Loc8rDataService', () => {
-  let service: Loc8rDataService;
+describe('HousepostDataService', () => {
+  let service: HousepostDataService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(Loc8rDataService);
+    service = TestBed.inject(HousepostDataService);
   });
 
   it('should be created', () => {

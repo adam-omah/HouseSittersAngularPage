@@ -18,8 +18,8 @@ export class RegisterDataService {
 
 
   public addUser(user:UserComponent){
+    console.log("Entered Add User");
     this.http.post(this.apiBaseUrl, JSON.stringify(user) );
-
   }
 
 }
